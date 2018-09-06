@@ -1,0 +1,193 @@
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  padding-top: 160px;
+  text-align: right;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.shape1 {
+  position: relative;
+  margin-bottom: 150px;
+  height: 550px;
+  background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/cold-foggy-forest.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
+}
+.shape1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #19263a;
+  opacity: .9;
+}
+
+.text2 {
+  position: relative;
+  color: #19263a;
+  text-align: center;
+  display: inline-block;
+}
+
+.text2 h2 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #19263a;
+}
+
+.text2 p {
+  font-size: 14px;
+  color: #19263a;
+}
+
+.text3 img {
+  position: absolute;
+  width: 25%;
+  border-radius: 50%;
+  left: 90px;
+}
+
+.text3 {
+  position: absolute;
+  z-index: 2;
+  left: -60px;
+  color: #fff;
+  padding-top: 360px;
+}
+
+.text3 h2 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.text3 h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.text3 p {
+  font-size: 16px;
+  text-transform: none;
+}
+
+.shape2 {
+  margin-top: 150px;
+  position: relative;
+  height: 650px;
+  background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/dark-triangles.png") center center no-repeat;
+  background-repeat: repeat;
+  background-size: repeat;
+  color: #fff;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+}
+.shape2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #104b82;
+  opacity: .9;
+}
+
+@media screen and (max-width: 1400px) {
+  .text3 img {
+    display: none;
+    position: absolute;
+    top: 305px;
+    left: 35px;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  .text3 {
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    color: #fff;
+    padding-top: 300px;
+  }
+
+  .shape2 {
+    margin-top: 150px;
+    position: relative;
+    height: 600px;
+    background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/dark-triangles.png") center center no-repeat;
+    background-repeat: repeat;
+    background-size: repeat;
+    color: #fff;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+  }
+  .shape2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #104b82;
+    opacity: .9;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text3 img {
+    position: absolute;
+    top: 305px;
+    left: 35px;
+    width: 75%;
+    border-radius: 50%;
+  }
+
+  .text3 {
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    color: #fff;
+    padding-top: 320px;
+  }
+
+  .shape2 {
+    margin-top: 150px;
+    position: relative;
+    height: 700px;
+    background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/dark-triangles.png") center center no-repeat;
+    background-repeat: repeat;
+    background-size: repeat;
+    color: #fff;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+  }
+  .shape2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #104b82;
+    opacity: .9;
+  }
+}
