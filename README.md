@@ -1,3 +1,4 @@
 # Curves
 Playing around with polygons
-https://ktlnwhtkr.github.io/curves/
+
+Design: http://www.tooplate.com/view/2091-ziggy
