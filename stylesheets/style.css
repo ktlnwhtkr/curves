@@ -1,19 +1,15 @@
-$font-stack:    Roboto Condensed, sans-serif;
-$primary-color: #fff;
-
 html, body {
-  font: 100% $font-stack;
-  color: $primary-color;
+  font: 100% Roboto Condensed, sans-serif;
+  color: #fff;
   margin: 0 auto;
 }
 
-
 .text {
-	position: absolute;
-	z-index: 2;
-	color: #fff;
-	top: 150px;
-	text-align: right;
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  top: 150px;
+  text-align: right;
 }
 
 h2 {
@@ -37,8 +33,8 @@ p {
   background-size: cover;
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
-
-&:before {
+}
+.shape1:before {
   content: '';
   position: absolute;
   top: 0;
@@ -47,7 +43,6 @@ p {
   left: 0;
   background-color: #19263a;
   opacity: .9;
-}
 }
 
 .text2 {
@@ -84,7 +79,6 @@ p {
   left: -60px;
   top: 350px;
   color: #fff;
-
 }
 
 .text3 h2 {
@@ -113,8 +107,8 @@ p {
   background-size: repeat;
   color: #fff;
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
-
-&:before {
+}
+.shape2:before {
   content: '';
   position: absolute;
   top: 0;
@@ -124,10 +118,8 @@ p {
   background-color: #104b82;
   opacity: .9;
 }
-}
 
 @media screen and (max-width: 1400px) {
-
   .text3 img {
     display: none;
     position: absolute;
@@ -151,28 +143,24 @@ p {
     height: 800px;
   }
 }
-
 @media screen and (max-width: 760px) {
-	
   .shape1 {
-	  position: relative;
-	  z-index: 1;
-	  margin-bottom: 50px;
-	  margin-top: -150px;
-	  height: 550px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    margin-top: -150px;
+    height: 550px;
+  }
 }
-}
-
 @media screen and (max-width: 400px) {
-	
   .shape1 {
-	  position: relative;
-	  z-index: 1;
-	  margin-bottom: 50px;
-	  margin-top: -220px;
-	  height: 550px;
-}
-	
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    margin-top: -220px;
+    height: 550px;
+  }
+
   .text3 img {
     position: absolute;
     top: 305px;
@@ -195,3 +183,5 @@ p {
     height: 950px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
