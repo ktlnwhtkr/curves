@@ -4,7 +4,7 @@ html, body {
   margin: 0 auto;
 }
 
-.text {
+.top-text {
   position: absolute;
   z-index: 2;
   color: #fff;
@@ -23,7 +23,7 @@ p {
   text-transform: uppercase;
 }
 
-.shape1 {
+.top-shape {
   position: relative;
   z-index: 1;
   margin-bottom: 50px;
@@ -34,7 +34,7 @@ p {
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
 }
-.shape1:before {
+.top-shape:before {
   content: '';
   position: absolute;
   top: 0;
@@ -45,7 +45,7 @@ p {
   opacity: .9;
 }
 
-.text2 {
+.middle-text {
   position: relative;
   padding-top: 80px;
   color: #19263a;
@@ -53,7 +53,7 @@ p {
   display: inline-block;
 }
 
-.text2 h2 {
+.middle-text h2 {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -61,19 +61,19 @@ p {
   color: #19263a;
 }
 
-.text2 p {
+.middle-text p {
   font-size: 14px;
   color: #19263a;
 }
 
-.text3 img {
+.bottom-text img {
   position: absolute;
   width: 25%;
   border-radius: 50%;
   left: 90px;
 }
 
-.text3 {
+.bottom-text {
   position: absolute;
   z-index: 2;
   left: -60px;
@@ -81,24 +81,24 @@ p {
   color: #fff;
 }
 
-.text3 h2 {
+.bottom-text h2 {
   font-size: 20px;
   padding-bottom: 0px;
   text-transform: uppercase;
 }
 
-.text3 h3 {
+.bottom-text h3 {
   font-size: 40px;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
 
-.text3 p {
+.bottom-text p {
   font-size: 16px;
   text-transform: none;
 }
 
-.shape2 {
+.bottom-shape {
   margin-top: -100px;
   position: relative;
   height: 750px;
@@ -108,7 +108,7 @@ p {
   color: #fff;
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
 }
-.shape2:before {
+.bottom-shape:before {
   content: '';
   position: absolute;
   top: 0;
@@ -120,7 +120,7 @@ p {
 }
 
 @media screen and (max-width: 1400px) {
-  .text3 img {
+  .bottom-text img {
     display: none;
     position: absolute;
     top: 305px;
@@ -129,7 +129,7 @@ p {
     border-radius: 50%;
   }
 
-  .text3 {
+  .bottom-text {
     position: absolute;
     z-index: 2;
     left: 0px;
@@ -137,14 +137,14 @@ p {
     padding-top: 0px;
   }
 
-  .shape2 {
+  .bottom-shape {
     margin-top: -200px;
     position: relative;
     height: 800px;
   }
 }
 @media screen and (max-width: 760px) {
-  .shape1 {
+  .top-shape {
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
@@ -153,7 +153,7 @@ p {
   }
 }
 @media screen and (max-width: 400px) {
-  .shape1 {
+  .top-shape {
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
@@ -161,7 +161,7 @@ p {
     height: 550px;
   }
 
-  .text3 img {
+  .bottom-text img {
     position: absolute;
     top: 305px;
     left: 35px;
@@ -169,7 +169,7 @@ p {
     border-radius: 50%;
   }
 
-  .text3 {
+  bottom-text {
     position: absolute;
     z-index: 2;
     left: 0px;
@@ -177,7 +177,7 @@ p {
     padding-top: 20px;
   }
 
-  .shape2 {
+  .bottom-shape {
     margin-top: -420px;
     position: relative;
     height: 950px;
