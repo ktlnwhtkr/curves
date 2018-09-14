@@ -22,8 +22,7 @@ h2 {
 }
 
 p {
-  font-size: 17px;
-  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .top-shape {
@@ -51,7 +50,7 @@ p {
 
 .middle-text {
   position: relative;
-  padding-top: 80px;
+  padding-top: 30px;
   color: #19263a;
   text-align: center;
   display: inline-block;
@@ -83,7 +82,6 @@ p {
   left: -60px;
   top: 350px;
   color: #fff;
-
 }
 
 .bottom-text h2 {
@@ -104,7 +102,7 @@ p {
 }
 
 .bottom-shape {
-  margin-top: -100px;
+  margin-top: -150px;
   position: relative;
   height: 750px;
   background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/dark-triangles.png") center center no-repeat;
@@ -114,16 +112,71 @@ p {
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
 
 &:before {
-  content: '';
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #104b82;
+	opacity: .9;
+}
+}
+
+.bottom-form {
+	padding-top: 150px;
+	padding-bottom: 15px;
+}
+
+.fa-facebook-square,.fa-twitter-square {
+	margin-right: 10px;
+}
+
+.footer-text {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #104b82;
-  opacity: .9;
+  z-index: 2;
+  text-align: center;
+  top: 300px;
+  color: #fff;
+}
+
+.footer-text h2 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.footer-text h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-text p {
+  font-size: 16px;
+  text-transform: none;
+}
+
+.footer-shape {
+  position: relative;
+  height: 400px;
+  background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/cold-foggy-forest.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+
+&:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #104b82;
+	opacity: .9;
 }
 }
+
 
 @media screen and (max-width: 1400px) {
 
@@ -193,4 +246,9 @@ p {
     position: relative;
     height: 950px;
   }
+  
+  .bottom-form {
+	padding-top: 100px;
+	padding-bottom: 0px;
+}
 }
