@@ -4,6 +4,25 @@ html, body {
   margin: 0 auto;
 }
 
+.top-nav {
+  z-index: 5;
+  position: absolute;
+  background-color: transparent;
+}
+
+.top-nav .nav-link {
+  color: #fff;
+}
+
+.top-nav .nav-link:hover {
+  color: #fff;
+}
+
+.top-nav .dropdown-menu {
+  background-color: #fff;
+  color: #fff;
+}
+
 .top-text {
   position: absolute;
   z-index: 2;
@@ -12,8 +31,8 @@ html, body {
   text-align: right;
 }
 
-h2 {
-  font-size: 40px;
+.top-text h2 {
+  font-size: 50px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
@@ -26,7 +45,7 @@ p {
   position: relative;
   z-index: 1;
   margin-bottom: 50px;
-  margin-top: -110px;
+  margin-top: -190px;
   height: 550px;
   background: url("https://kaitlinwhitaker.com/wp-content/uploads/2018/09/cold-foggy-forest.jpg") center center no-repeat;
   background-size: cover;
@@ -200,7 +219,7 @@ p {
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
-    margin-top: -150px;
+    margin-top: -240px;
     height: 550px;
   }
 }
@@ -209,7 +228,7 @@ p {
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
-    margin-top: -220px;
+    margin-top: -250px;
     height: 550px;
   }
 
