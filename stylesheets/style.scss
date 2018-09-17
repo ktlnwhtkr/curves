@@ -50,7 +50,7 @@ p {
   margin-bottom: 50px;
   margin-top: -190px;
   height: 550px;
-  background: url("images/cold-foggy-forest.jpg") center center no-repeat;
+  background: url("../images/cold-foggy-forest.jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
@@ -124,7 +124,7 @@ p {
   margin-top: -150px;
   position: relative;
   height: 750px;
-  background: url("images/dark-triangles.png") center center no-repeat;
+  background: url("../images/dark-triangles.png") center center no-repeat;
   background-repeat: repeat;
   background-size: repeat;
   color: #fff;
@@ -179,7 +179,7 @@ p {
 .footer-shape {
   position: relative;
   height: 400px;
-  background: url("images/cold-foggy-forest.jpg") center center no-repeat;
+  background: url("../images/cold-foggy-forest.jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
   clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
